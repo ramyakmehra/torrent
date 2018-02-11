@@ -2,8 +2,8 @@ FROM alpine:edge
 LABEL maintainer="dev@jpillora.com"
 # prepare go env
 ENV GOPATH /go
-ENV NAME cloud-torrent
-ENV PACKAGE github.com/HashHackerAds/$NAME
+ENV NAME torrent
+ENV PACKAGE github.com/ramyakmehra/$NAME
 ENV PACKAGE_DIR $GOPATH/src/$PACKAGE
 ENV GOLANG_VERSION 1.9.1
 ENV GOLANG_SRC_URL https://golang.org/dl/go$GOLANG_VERSION.src.tar.gz
